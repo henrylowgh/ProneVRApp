@@ -4,7 +4,8 @@ using System.Collections;
 public class RotateEarth : MonoBehaviour {
 
 	private float mouseXAmount, mouseYAmount;
-
+	public float speed = 10f;  // Rotation speed
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -19,5 +20,14 @@ public class RotateEarth : MonoBehaviour {
 			transform.Rotate(mouseYAmount,mouseXAmount,0,Space.World);
 		}
 
+		CustomRotate();
+
 	}
+
+	public void CustomRotate()
+	{
+        // Rotate the GameObject around its Y axis at 'speed' degrees per second
+        transform.Rotate(0, 0, speed * Time.deltaTime);
+    }
+
 }
