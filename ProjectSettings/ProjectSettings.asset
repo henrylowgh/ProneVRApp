@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: ProneVR
-  productName: ProneVRApp - Space
+  productName: ProneVRApp - Aquatic (High Res)
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -140,8 +140,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 83903da2e1a4e144bbb3a7db38cf6178, type: 2}
-  - {fileID: 7622570134051497543, guid: d529e9532a0491448b7943f806aaf50c, type: 2}
-  - {fileID: 11400000, guid: e988480726e41344cab136781d0377dd, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +159,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.ProneVR.ProneVRApp_space
+    Android: com.ProneVR.ProneVRApp_aquatic_highres
   buildNumber:
     Standalone: 0
     iPhone: 0

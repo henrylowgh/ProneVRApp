@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/My Scenes/Kelp Shallows.unity
     guid: 2463cc2ef64cfa84ab04e528ae7a4b06
-  - enabled: 1
+  - enabled: 0
     path: Assets/My Scenes/Earth.unity
     guid: 61befcb20130b764499dc36e78991779
+  - enabled: 1
+    path: Assets/My Scenes/Kelp Shallows_high res.unity
+    guid: bc496d9c78e596843aa308857a275a70
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e988480726e41344cab136781d0377dd, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d529e9532a0491448b7943f806aaf50c, type: 2}
